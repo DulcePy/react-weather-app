@@ -5,7 +5,8 @@ import Weather from "./Weather.js";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="New York" />
+
       <footer className="text-center">
         This website was coded by <span>Dulce Figueredo</span>, the code is{" "}
         <span>open-source</span> on{" "}

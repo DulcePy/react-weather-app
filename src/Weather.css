@@ -9,9 +9,9 @@
 }
 
 .weather-description {
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
 }
 
 .weather h1 {
@@ -29,7 +29,7 @@
 .weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 24px;
   list-style: none;
 }
 
@@ -37,8 +37,8 @@
   display: inline-flex;
 }
 
-.weather .weather-details img{
-    margin-right: 8px;
+.weather .weather-details img {
+  margin-right: 8px;
 }
 
 .weather .temperature {
@@ -50,12 +50,10 @@
 }
 
 .weather .unit {
-    color: rgb(33, 33, 33);
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 5px;
-    position: relative;
-    top: -34px;
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5px;
+  position: relative;
+  top: -34px;
 }
-
-
