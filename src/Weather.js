@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import BeatLoader from "react-spinners/BeatLoader";
 
 import "./Weather.css";
 
@@ -68,11 +69,14 @@ export default function Weather(props) {
         </form>
 
         <WeatherInfo data={weatherData} />
-        
       </div>
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <div className="text-center mt-5">
+        <BeatLoader color="#36d7b7" />
+      </div>
+    );
   }
 }
