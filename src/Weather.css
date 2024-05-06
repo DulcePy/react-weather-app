@@ -37,8 +37,8 @@
   display: inline-flex;
 }
 
-.weather .weather-details img {
-  margin-right: 8px;
+.weather-details .weather-icon {
+  margin-top: 5px;
 }
 
 .weather .temperature {
