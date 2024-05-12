@@ -3,7 +3,18 @@
     margin-top: 15px;
 }
 
+.weatherForecast-temp-max {
+    color: black;
+}
+
 .weatherForecast-temp-min {
-    opacity: 0.5;
-    margin-left: 5px;
+    color: #878787;
+    margin-left: 4px;
+}
+
+.weatherForecast-day {
+    color: #0d6efd;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-family: cursive;
 }
