@@ -7,9 +7,9 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo container">
-      <h1 className="">{props.data.city}</h1>
-      <ul className="">
-        <li className="">
+      <h1>{props.data.city}</h1>
+      <ul>
+        <li>
           <FormattedDate date={props.data.date} />
         </li>
         <li className="text-capitalize">{props.data.description}</li>
@@ -22,19 +22,20 @@ export default function WeatherInfo(props) {
           </div>
           <div className="temp-unit">
             <WeatherTemperature celsius={props.data.temperature} />
-            
           </div>
         </div>
 
         <div className="col-6">
-          <li className="">
-            Temp. Max: {Math.round(props.data.temperature_max)} °C
+          <li>
+            <span>Temp. Max:</span>{" "}
+            {Math.round(props.data.temperature_max)} °C
           </li>
-          <li className="">
-            Temp. min: {Math.round(props.data.temperature_min)} °C
+          <li>
+            <span>Temp. min:</span>{" "}
+            {Math.round(props.data.temperature_min)} °C
           </li>
-          <li className="">Humidity: {props.data.humidity} %</li>
-          <li className="">Wind: {Math.round(props.data.wind)} km/h</li>
+          <li><span>Humidity:</span> {props.data.humidity} %</li>
+          <li><span>Wind:</span> {Math.round(props.data.wind)} km/h</li>
         </div>
       </div>
     </div>
