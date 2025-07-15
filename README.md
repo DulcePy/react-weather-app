@@ -12,4 +12,4 @@
 
 ### Weather app
 
-<img src="https://github.com/DulcePy/portfolio-dulce/blob/main/images/projects/react-weather-app.png" alt="Weather app" width="700" >
+<img src="public/react-weather-app.png" alt="Weather app" width="700" >
