@@ -4,7 +4,7 @@
 
 👉🏽 The project integrates API consumption to obtain real-time data and is designed to be intuitive and easy to use, making it ideal for practicing external service integration and state management in React.
 
-### 🛠 Tecnoligies
+### 🛠 Technologies
 
 - React.js
 - HTML
